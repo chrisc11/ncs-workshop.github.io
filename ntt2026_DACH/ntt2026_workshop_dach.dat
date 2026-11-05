@@ -658,6 +658,19 @@ var WORKSHOP = {
           "codeBlocksNoCopy": []
         },
         {
+          "title": "Disable Charger",
+          "description": "<span style=\"font-size: 14.4px;\">Since we are using the default settings of the nRF93M1-DK and have not configured the nPM1300 charger for our battery, we are disabling the charger functionality.&nbsp;</span><div><span style=\"font-size: 14.4px;\">The battery voltage, current, and temperature are still being measured and used to calculate the battery level using the fuel gauge libraries.&nbsp;</span></div><div><span style=\"font-size: 14.4px;\">Please note that after downloading the software to the hardware, you must power-cycle the hardware.&nbsp;</span></div><div><div><span style=\"font-size: 14.4px;\"><br></span></div><div><span style=\"font-size: 14.4px;\"><b>Notes:</b></span></div><div><span style=\"font-size: 14.4px;\">- In the DeviceTree, properties of type boolean are disabled by deleting the property.&nbsp;</span></div><div><span style=\"font-size: 14.4px;\">- The configuration for a selected battery is done using the npm Power Up tool.</span></div></div>",
+          "codeBlocks": [
+            {
+              "label": "app.overlay",
+              "code": "&npm1300_charger {\n    /delete-property/ charging-enable;\n};"
+            }
+          ],
+          "codeBlocksNoCopy": [],
+          "images": [],
+          "moreInfo": []
+        },
+        {
           "title": "Build, flash, and test",
           "description": "<div><ul><li><span style=\"font-size: 0.9rem;\">Perform a build. (pristine build is not needed this time!)</span></li><li>After the build is successful, we'll flash the software to the dev kit.</li></ul></div><div><ul><li>Use “NRF Connect for Mobile” to connect to your device. Enable BAS notifications and check whether the SOC value in the Serial Terminal matches the battery level in the app.</li></ul></div>",
           "codeBlocks": [],
