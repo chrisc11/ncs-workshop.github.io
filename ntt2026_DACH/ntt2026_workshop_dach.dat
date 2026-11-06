@@ -1404,6 +1404,14 @@ var WORKSHOP = {
           ],
           "moreInfo": [],
           "codeBlocksNoCopy": []
+        },
+        {
+          "title": "Downloads",
+          "description": "<span style=\"font-size: 14.4px;\">You can download all documents and solutions here:</span><div><ul><li>Documents:<br>&nbsp; -&nbsp;<a href=\"docs/NTT-2026_Workshop-slides.pdf\" download=\"\" style=\"font-size: 0.9rem;\">Workshop Slides</a><br>&nbsp; -&nbsp;<a href=\"docs/NTT-2026_Workshop-step-by-step-guide.pdf\" download=\"\">Workshop step-by-step hands-on guide</a></li></ul><div><br></div><ul><li>Project solutions:</li></ul><div>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href=\"solutions/2-Sensor_simulated.zip\" download=\"\" style=\"font-size: 0.9rem;\">Simulated Sensor</a></div></div><div>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href=\"solutions/3-Sensor_TEMP.zip\" download=\"\" style=\"font-size: 0.9rem;\">Real Sensor (nRF54L15 TEMP)</a></div><div>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href=\"solutions/3a-Sensor_Addon.zip\" download=\"\" style=\"font-size: 0.9rem;\">Sensor Add-on Board</a></div><div>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href=\"solutions/5-Bluetooth.zip\" download=\"\" style=\"font-size: 0.9rem;\">Bluetooth</a></div>",
+          "codeBlocks": [],
+          "codeBlocksNoCopy": [],
+          "images": [],
+          "moreInfo": []
         }
       ],
       "description": ""
