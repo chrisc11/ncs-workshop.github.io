@@ -277,7 +277,7 @@ var WORKSHOP = {
         },
         {
           "title": "Verify the sensor initialized correctly",
-          "description": "Hardware (and simulated hardware) initializes during system boot. Before using a device, always confirm it's ready. Insert the following code at the beginning of <code>main()</code>, right before your main loop.",
+          "description": "Hardware (and simulated hardware) initializes during system boot. Before using a device, always confirm it's ready. Insert the following code at the beginning of <code>main()</code>.",
           "codeBlocks": [
             {
               "label": "main.c",
